@@ -1,0 +1,18 @@
+.Wrapper {
+  display: flex;
+}
+
+.LogoutClass {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.Content {
+  padding: 40px 70px;
+  background-color: #eeeeee;
+  width: 100%;
+  max-height: calc(100vh - 80px);
+  overflow: auto;
+}

@@ -1,0 +1,11 @@
+.Title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.AccountProviders {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

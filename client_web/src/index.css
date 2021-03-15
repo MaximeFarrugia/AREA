@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #444444;
+  font-family: 'Roboto', 'sans-serif';
+}
+
+.no-scroll {
+  overflow: hidden;
+}

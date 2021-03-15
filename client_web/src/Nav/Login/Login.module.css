@@ -1,0 +1,36 @@
+.GoogleClass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.GoogleClass > p {
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.GoogleButton,
+.GoogleButton > div {
+  background: rgba(0, 0, 0, 0.5) !important;
+  border-radius: 20px !important;
+  outline: none;
+}
+
+.GoogleButton:hover,
+.GoogleButton > div:hover {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+.GoogleButton > div {
+  margin: 0 !important;
+}
+
+.GoogleButton > div > svg > g > path:not(:last-child) {
+  fill: #ffffff;
+}
+
+.GoogleButton > span {
+  display: none;
+}

@@ -1,0 +1,57 @@
+.Wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Data label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.Actions,
+.Reactions {
+  display: flex;
+  flex-direction: column;
+}
+
+.Actions {
+  margin-right: 20px;
+}
+
+.Actions > label:not(:last-child),
+.Reactions > label:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.SelectClass {
+  min-width: 200px;
+}
+
+.SelectClass,
+.InputClass {
+  min-height: 42px;
+  margin-top: 5px;
+}
+
+.ButtonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.ButtonWrapper > button:first-child {
+  margin-right: 10px;
+}
